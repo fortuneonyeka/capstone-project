@@ -71,7 +71,7 @@ a {
 	width: 160px;
 }
 
-#nv-element:hover {
+#nav-element:hover {
 	color: red;
 }
 
@@ -212,14 +212,15 @@ a {
 	margin-right: 20px;
 }
 
-/* .footer-item {
-	display: block;
-} */
-
 @media only screen and (max-width: 768px) {
   .each-featured {
     display: none;
   }
+
+	body,html {
+		max-width: 100%;
+		overflow-x: hidden !important;
+	}
 
   .nav-media {
     display: none;
