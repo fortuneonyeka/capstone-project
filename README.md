@@ -38,7 +38,7 @@ Desktop Version :
 
 To get a local copy up and running follow these simple example steps.
 - Open terminal
-- Clone this project by command git clone https://github.com/fortuneonyeka/capstone-project/tree/kas
+- Clone this project by command git clone https://github.com/fortuneonyeka/capstone-project.git
 - Cd news-week folder
 - Open index.html in browser
 
