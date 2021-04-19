@@ -9,17 +9,13 @@ This project desinged is created with mobile first approach for responsiveness u
 
 Screenshots:
 
-Phone Version :
-
-![screenshot](./img/mobilescreenshot.png)
-
 Tablet Version :
 
-![screenshot](./img/tabletscreenshot.png)
+![screenshot](./img/tablet-version.png)
 
 Desktop Version :
 
-![screenshot](./img/desktopscreenshot.png)
+![screenshot](../img/desktopversion.png)
 
 
 ## Built With 🔨
