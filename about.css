@@ -1,0 +1,221 @@
+:root {
+  --dak: #272a31;
+  --orng: #ec5242;
+  --lit: #d3d3d3;
+}
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("fonts/Cocogoose_trial.woff") format("woff"), url("fonts/Cocogoose_trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dak);
+}
+
+/* header section */
+
+
+.cont {
+  padding-left: 15px;
+}
+.nav-media {
+  background-color: var(--dak);
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.medias {
+  margin: 0;
+}
+
+.medias li {
+  padding: 0.4rem 1rem;
+}
+
+.container .medias {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+
+.nav-a {
+  color: var(--lit);
+}
+
+.nav-a:hover {
+  color: var(--orng);
+  text-decoration: none;
+}
+
+.nav-cont {
+  margin-top: 0;
+  background: #fff;
+}
+
+.main-logo {
+  height: 65px;
+  width: 160px;
+}
+
+#nv-element:hover {
+  color: red
+}
+
+.nav-button {
+  border-width: 0.26rem;
+  border-color: var(--orng);
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .na-button {
+    border-width: 0.2rem;
+    font-size: x-small;
+  }
+
+  .nav-a {
+    font-size: x-small;
+  }
+} */
+
+
+.header1 {
+  color: var(--orng);
+  max-width: 400px;
+  margin: auto;
+  font-size: 8px;
+}
+
+.about {
+  font-family: 'COCOGOOSE', sans-serif;
+  text-align: center;
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  margin-left: 150px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.logo-header {
+  text-align: center;
+}
+
+.logopara {
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+}
+.event-logo{
+  border: 1px solid var(--dak);
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.event-container p {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .all-event {
+    flex-direction: column;
+    /* min-width: 100%; */
+  }
+
+.first-event {
+  width: 300%;
+    margin: 0.5rem auto;
+    
+}
+.foot-item2{
+  display: none;
+}
+
+.about {
+  width: 100%;
+}
+
+.about-events{
+  width: 100%;
+}
+.partners-part {
+  display: inline-flex;
+}
+
+}
+
+/* .event-container h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  float: right;
+} */
+/* 
+.event a img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+
+.event {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.event a {
+  box-shadow: inset 0 0 0 200px #C33764; 
+} */
+
+
+.event {
+  width: 44%;
+  height: 22vh;
+}
+
+.first-event {
+  background: url('img/Real-estate1.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.second-event {
+  background: url('img/2021_sales.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.about-events {
+  /* width: 100%; */
+  height: 100%;
+  background-color: #ec5342a2;
+}
+
+.footer-logo {
+   margin-bottom: 60px;
+}
+
+.footer-cover{
+  box-shadow: inset 0 0 0 2000px var(--dak);
+}
+
+@media only screen and (max-width:1024){
+  
+}
