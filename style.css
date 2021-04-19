@@ -114,7 +114,6 @@ a {
 .showcase-child {
 	background: var(--lit);
 	font-size: small;
-	/* border: var(--orng) 2px solid ; */
 }
 
 .showcase-date {
