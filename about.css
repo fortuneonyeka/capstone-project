@@ -184,7 +184,3 @@ a {
 .footer-cover {
   box-shadow: inset 0 0 0 2000px var(--dak);
 }
-
-@media only screen and (max-width:1024){
-  
-}
