@@ -25,13 +25,11 @@ a {
   text-decoration: none;
   color: var(--dak);
 }
-
 /* header section */
-
-
 .cont {
   padding-left: 15px;
 }
+
 .nav-media {
   background-color: var(--dak);
   text-align: right;
@@ -53,7 +51,6 @@ a {
   list-style: none;
 }
 
-
 .nav-a {
   color: var(--lit);
 }
@@ -74,7 +71,7 @@ a {
 }
 
 #nv-element:hover {
-  color: red
+  color: red;
 }
 
 .nav-button {
@@ -136,7 +133,7 @@ a {
 
 .first-event {
   width: 300%;
-    margin: 0.5rem auto;
+  margin: 0.5rem auto;
     
 }
 .foot-item2 {
@@ -153,7 +150,6 @@ a {
 .partners-part {
   display: inline-flex;
 }
-
 }
 
 .event {
