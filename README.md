@@ -1,7 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project1
-
 Behance conference page
 
 This is a personalised Kas & Green Realtors seminar/conference page.
