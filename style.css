@@ -19,7 +19,6 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Lato", sans-serif;
-	position: relative;
 }
 
 a {
@@ -206,6 +205,11 @@ a {
 
 .main-footer {
 	justify-content: center;
+	position: relative;
+}
+
+.footer-item {
+	margin-right: 20px;
 }
 
 /* .footer-item {
