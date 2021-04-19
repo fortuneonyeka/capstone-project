@@ -32,7 +32,7 @@ Desktop Version :
 
 ## Live Demo 👀
 
-[Live Demo Link](https://fortuneonyeka.github.io/bootstrap-newsweek/)
+[Live Demo Link](https://fortuneonyeka.github.io/capstone-project/)
 
 ### Install
 
