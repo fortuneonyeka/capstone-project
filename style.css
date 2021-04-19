@@ -1,0 +1,243 @@
+:root {
+	--dak: #272a31;
+	--orng: #ec5242;
+	--lit: #d3d3d3;
+}
+
+@font-face {
+	font-family: "COCOGOOSE";
+	src: url("fonts/Cocogoose_trial.woff") format("woff"),
+		url("fonts/Cocogoose_trial.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--dak);
+}
+
+/* header section */
+
+.cont {
+	padding-left: 15px;
+}
+.nav-media {
+	background-color: var(--dak);
+	text-align: right;
+	font-size: 0.9rem;
+}
+
+.medias {
+	margin: 0;
+}
+
+.medias li {
+	padding: 0.4rem 1rem;
+}
+
+.container .medias {
+	display: flex;
+	text-decoration: none;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.nav-a {
+	color: var(--lit);
+}
+
+.nav-a:hover {
+	color: var(--orng);
+	text-decoration: none;
+}
+
+.nav-cont {
+	margin-top: 0;
+	background: #fff;
+}
+
+.main-logo {
+	height: 65px;
+	width: 160px;
+}
+
+#nv-element:hover {
+	color: red;
+}
+
+.nav-button {
+	border-width: 0.26rem;
+	border-color: var(--orng);
+}
+
+.showcase {
+	background-image: url("img/r-architecture-KQPEhYweLrQ-unsplash.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+.showcase-title-one {
+	color: var(--orng);
+}
+
+.showcase-title-two {
+	font-family: "COCOGOOSE", sans-serif;
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 1;
+	background: linear-gradient(
+		45deg,
+		var(--orng) 0%,
+		var(--lit) 46%,
+		var(--orng) 76%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: var(--textColor);
+}
+
+.showcase-child {
+	background: var(--lit);
+	font-size: small;
+	/* border: var(--orng) 2px solid ; */
+}
+
+.showcase-date {
+	font-family: "COCOGOOSE", sans-serif;
+	font-size: 2rem;
+	color: var(--lit);
+}
+
+.showcase-venue {
+  font-size: x-large;
+  color: var(--lit);
+}
+
+.main-program {
+	text-align: center;
+	background-image: url("img/Diamond-Sunset.svg");
+	background-size: cover;
+}
+
+.line-main {
+	width: 3rem;
+	height: 2px;
+	background-color: var(--orng);
+	margin: 0 auto;
+}
+
+.event-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--lit);
+}
+
+.main-event {
+	width: 19.8%;
+	background: #adabab38;
+	padding: 0.7rem;
+	height: 14rem;
+	line-height: 1.1;
+	margin-top: 20px;
+}
+
+.icn {
+	height: 45px;
+	width: 44px;
+}
+
+.evernt-txt {
+	font-size: 20px;
+	color: var(--orng);
+}
+
+.join-button {
+	background-color: var(--orng);
+	color: var(--lit);
+	font-weight: bolder;
+	font-size: x-large;
+	padding: 2rem 4rem;
+}
+
+.img-top {
+  background-image: url('img/img-top.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 5rem 5rem;
+}
+
+.partners-part {
+  color: rgb(182, 182, 182);
+  background: #414141;
+}
+
+
+.partners {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: end;
+  color: var(--lit);
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .each-featured {
+    display: none;
+  }
+
+  .nav-media {
+    display: none;
+  }
+
+	.showcase {
+    padding-top: 2.5rem;
+  }
+
+  .main-nav-container {
+    background: url('img/Pattern-Randomized.svg') bottom;
+    background-size: cover;
+  }
+
+	.event-container {
+    flex-direction: column;
+    /* margin: 2.2rem 0; */
+  }
+
+  .main-event {
+    min-width: 100%;
+    margin: 0.5rem auto;
+		padding: 14px 16px;
+    display: flex;
+    text-align: left;
+    height: auto;
+  }
+
+	.showcase-child {
+    min-width: 100%;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+	.partner {
+    width: 90%;
+		margin: 10px;
+  }
+
+}
