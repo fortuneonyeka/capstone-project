@@ -15,7 +15,7 @@ Tablet Version :
 
 Desktop Version :
 
-![screenshot](../img/desktopversion.png)
+![screenshot](./img/desktop-version.png)
 
 
 ## Built With 🔨
