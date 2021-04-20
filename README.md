@@ -10,7 +10,7 @@ Screenshots:
 
 Mobile Version :
 
-![screenshot](./img/tablet-version.png)
+![screenshot](./img/mobile-version.png)
 
 Desktop Version :
 
