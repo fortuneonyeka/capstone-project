@@ -91,7 +91,8 @@ header section
   font-family: 'COCOGOOSE', sans-serif;
   align-items: center;
   background-color: #d3d3d3;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   max-width: 100%;
   text-align: center;
