@@ -8,7 +8,7 @@ This project desinged is created with mobile first approach for responsiveness u
 
 Screenshots:
 
-Tablet Version :
+Mobile Version :
 
 ![screenshot](./img/capstone-mobile.png)
 
