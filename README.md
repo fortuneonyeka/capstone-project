@@ -10,7 +10,7 @@ Screenshots:
 
 Mobile Version :
 
-![screenshot](./img/capstone-mobile-version.png)
+![screenshot](../img/capstone-mobile-version.png)
 
 Desktop Version :
 
