@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --dak: #272a31;
   --orng: #ec5242;
   --lit: #d3d3d3;
@@ -26,7 +26,7 @@ a {
   color: var(--dak);
 }
 
-/* header section */
+header section
 .cont {
   padding-left: 15px;
 }
@@ -78,7 +78,7 @@ a {
 .nav-button {
   border-width: 0.26rem;
   border-color: var(--orng);
-}
+} */
 
 .header1 {
   color: var(--orng);
@@ -89,12 +89,12 @@ a {
 
 .about {
   font-family: 'COCOGOOSE', sans-serif;
-  text-align: center;
+  align-items: center;
   background-color: #d3d3d3;
   padding: 20px;
   margin-bottom: 20px;
-  max-width: 70%;
-  margin-left: 150px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .contact {
@@ -142,7 +142,7 @@ a {
   }
 
   .about {
-    width: 100%;
+    max-width: 100%;
   }
 
   .about-events {

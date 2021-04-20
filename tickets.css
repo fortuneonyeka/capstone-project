@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --dak: #272a31;
   --orng: #ec5242;
   --lit: #d3d3d3;
@@ -24,7 +24,7 @@ body {
 a {
   text-decoration: none;
   color: var(--dak);
-}
+} */
 
 .main-ticket {
   text-align: center;
