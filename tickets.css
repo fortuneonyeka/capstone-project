@@ -26,7 +26,6 @@ a {
   color: var(--dak);
 }
 
-
 .main-ticket {
   text-align: center;
   background-image: url('img/Diamond-Sunset.svg');
@@ -63,7 +62,7 @@ a {
   background: var(--lit);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .tickets {
     max-width: 100%;
     padding: 10px;
@@ -72,5 +71,4 @@ a {
   .lunch-header {
     width: 100%;
   }
-
 }
