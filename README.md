@@ -4,7 +4,7 @@
 Behance conference page
 
 This is a personalised Kas & Green Realtors seminar/conference page.
-This project desinged is created with mobile first approach for responsiveness using bootstrap and css with good practice 
+This project desing is created with mobile first approach for responsiveness using bootstrap and css with good practice 
 
 Screenshots:
 
@@ -34,13 +34,13 @@ Desktop Version :
 To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by command git clone https://github.com/fortuneonyeka/capstone-project.git
-- Cd news-week folder
+- Cd capstone-project folder
 - Open index.html in browser
 
 ## Getting Started 
-- Index.html is the main marke up that will show as the first page in the browser .
-- about.html is the second and about page
-- tickets.html is the third and ticketing page
+- Index.html is the home marke up that will show as the first page in the browser .
+- about.html is the second which is the about page
+- tickets.html is the third which is the ticketing page
 - You will find seperate css files for each of the pages
 - img folder contains all the images and icons used in building this project
 
