@@ -8,9 +8,9 @@ This project desinged is created with mobile first approach for responsiveness u
 
 Screenshots:
 
-Mobile Version :
+Tablet Version :
 
-![screenshot](./img/mobile-version.png)
+![screenshot](./img/tablet-version.png)
 
 Desktop Version :
 
